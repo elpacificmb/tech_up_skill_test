@@ -38,3 +38,13 @@ item.forEach((product) => {
   }
 });
 console.log(total_price);
+
+// 4 . Calculate the full price of all product combined and remove product that are under the 10 dollar
+let total_price_for_up_to_ten_dollar_product = 0;
+
+item.forEach((product) => {
+  if (product.price >= 10) {
+    total_price_for_up_to_ten_dollar_product += product.price;
+  }
+});
+console.log(total_price_for_up_to_ten_dollar_product);
