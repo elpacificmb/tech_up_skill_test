@@ -26,3 +26,15 @@ item.forEach((product) => {
   }
 });
 console.log(expensive_product);
+
+// 3 . Calculate the full price of all product combined
+let total_price = 0;
+
+item.forEach((product) => {
+  total_price += product.price;
+
+  if (product.price < cheap_product) {
+    cheap_product = product.price;
+  }
+});
+console.log(total_price);
