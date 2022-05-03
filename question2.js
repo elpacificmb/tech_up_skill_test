@@ -16,3 +16,13 @@ item.forEach((product) => {
   }
 });
 console.log(cheap_product);
+
+// 2 . Filter and show the product that will be expensive in the array
+let expensive_product = item[0].price;
+
+item.forEach((product) => {
+  if (product.price > expensive_product) {
+    expensive_product = product.price;
+  }
+});
+console.log(expensive_product);
