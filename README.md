@@ -4,11 +4,15 @@
 
 This work is about to test if you match with our training when you finish this challenge, you have everything we want so Use visual studio code or other your favorite editor to complete this task by creating github repository and solve the question when you finish all questions submit in form bellow.
 
-### Question
+### Questions
 
 Q1. By Using HTML and CSS try to replicate as possible the following User Interface(UI)
-![userInterface](https://mbcreative.ca/blog/wp-content/uploads/2019/11/form_4x.png)
 As developer try to guess fonts and colors
+
+<!-- ![User Interface](https://mbcreative.ca/blog/wp-content/uploads/2019/11/form_4x.png) -->
+
+![User Interface](https://raw.githubusercontent.com/elpacificmb/tech_up_skill_test/main/userinterface.png)
+
 Q2. As array of product to be bought given names of product and price in dollars below try answer all questions Use your favorite programming
 
 ```s
@@ -27,4 +31,4 @@ const item = [
 3 . Calculate the full price of all product combined
 4 . Calculate the full price of all product combined and remove product that are under the 10 dollar
 
-Happy Codding
+Happy Coding
